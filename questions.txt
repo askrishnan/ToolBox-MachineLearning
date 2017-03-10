@@ -1,0 +1,15 @@
+What is the general trend in the curve?
+The general trend of the curve is positive.
+
+Are there parts of the curve that appear to be noisier than others? Why?
+The curve is a little noisy but parts of it don't really look noisier than others. This
+is because the less of the data that is used for training will cause the curve to look noisier. 
+The curve gets smoother as there is more training data used.
+
+How many trials do you need to get a smooth curve?
+You would probably need more than 100 trials to get a smooth curve.
+
+Try different values for C (by changing LogisticRegression(C=10** -10)). What happens?
+If you want to know why this happens, see this Wikipedia page as well as the documentation
+for LogisticRegression in scikit-learn
+When you make the C greater, you need less training data for the same amount of accuracy.
